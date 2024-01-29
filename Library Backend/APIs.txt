@@ -1,0 +1,57 @@
+1)Add Book
+URL: http://localhost:8080/add
+Input: 
+{
+    "name":"Maths",
+    "author":"praneeth",
+    "pages":50,
+    "price":200
+}
+
+Output:
+{
+    "name":"Maths",
+    "author":"praneeth",
+    "pages":50,
+    "price":200
+}
+
+2)Update Book
+URL: 
+Input: http://localhost:8080/add
+{
+    "name":"Maths",
+    "author":"praneeth",
+    "pages":50,
+    "price":200
+}
+
+Output: 
+{
+    "name":"Maths",
+    "author":"praneeth",
+    "pages":50,
+    "price":200
+}
+
+3)Get Book
+URL: http://localhost:8080/get/book_name
+Input: Book name in URL
+Output:
+{
+    "name":"Maths",
+    "author":"praneeth",
+    "pages":50,
+    "price":200
+}
+
+4)Delete Book
+URL: http://localhost:8080/delete/book_name
+Input: Book name in URL
+Output:
+{
+    "name":"Maths",
+    "author":"praneeth",
+    "pages":50,
+    "price":200
+}
